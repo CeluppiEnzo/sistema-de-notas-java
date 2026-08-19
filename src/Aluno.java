@@ -1,10 +1,11 @@
 import java.util.ArrayList;
 
 public class Aluno {
+
     private String nome;
     private ArrayList<Double> notas;
 
-    public Aluno(String nome){
+    public Aluno(String nome) {
         this.nome = nome;
         this.notas = new ArrayList<>();
     }
